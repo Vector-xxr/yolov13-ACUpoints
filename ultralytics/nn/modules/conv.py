@@ -82,7 +82,7 @@ class Conv2(Conv):
         self.forward = self.forward_fuse
 
 class DSConv(nn.Module):
-    """Depthwise Separable Conv with correct autopad for dilation."""
+    """The Basic Depthwise Separable Convolution."""
     def __init__(self, c_in, c_out, k=3, s=1, p=None, d=1, bias=False):
         super().__init__()
         if p is None:
