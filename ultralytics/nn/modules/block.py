@@ -1376,8 +1376,8 @@ class DSBottleneck(nn.Module):
     def __init__(self, c1, c2, shortcut=True, e=0.5, k1=3, k2=5, d2=1):
         super().__init__()
         c_ = int(c2 * e)
-        self.cv1 = DSConv(c1, c_, k1, s=1,    p=None, d=1)   
-        self.cv2 = DSConv(c_, c2, k2, s=1,    p=None, d=d2)  
+        self.cv1 = DSConv(c1, c_, k1, s=1, p=None, d=1)   
+        self.cv2 = DSConv(c_, c2, k2, s=1, p=None, d=d2)  
         self.add = shortcut and c1 == c2
 
     def forward(self, x):
@@ -1386,7 +1386,6 @@ class DSBottleneck(nn.Module):
 
 
 class DSC3k(C3):
-
     def __init__(
         self,
         c1,                
@@ -1417,7 +1416,6 @@ class DSC3k(C3):
         )
 
 class DSC3k2(C2f):
-
     def __init__(
         self,
         c1,          
