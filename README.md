@@ -141,10 +141,10 @@ pip install -e .
 YOLOv13 suppports Flash Attention acceleration.
 
 ### 2. Validation
-[`YOLOv13-N`](https://github.com/iMoonLab/yolov13/releases/download/yolov13/yolov12n.pt)
-[`YOLOv13-S`](https://github.com/iMoonLab/yolov13/releases/download/yolov13/yolov12s.pt)
-[`YOLOv13-L`](https://github.com/iMoonLab/yolov13/releases/download/yolov13/yolov12l.pt)
-[`YOLOv13-X`](https://github.com/iMoonLab/yolov13/releases/download/yolov13/yolov12x.pt)
+[`YOLOv13-N`](https://github.com/iMoonLab/yolov13/releases/download/yolov13/yolov13n.pt)
+[`YOLOv13-S`](https://github.com/iMoonLab/yolov13/releases/download/yolov13/yolov13s.pt)
+[`YOLOv13-L`](https://github.com/iMoonLab/yolov13/releases/download/yolov13/yolov13l.pt)
+[`YOLOv13-X`](https://github.com/iMoonLab/yolov13/releases/download/yolov13/yolov13x.pt)
 
 Use the following code to validate the YOLOv13 models on the COCO dataset. Make sure to replace `{n/s/l/x}` with the desired model scale (nano, small, plus, or ultra).
 ```python
