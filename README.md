@@ -150,7 +150,7 @@ Use the following code to validate the YOLOv13 models on the COCO dataset. Make 
 ```python
 from ultralytics import YOLO
 
-model = YOLO('yolov12{n/s/l/x}.pt')  # Replace with the desired model scale
+model = YOLO('yolov13{n/s/l/x}.pt')  # Replace with the desired model scale
 ```
 
 ### 3. Training
