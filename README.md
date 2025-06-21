@@ -43,8 +43,8 @@
 * **HyperACE: Hypergraph-based Adaptive Correlation Enhancement**
 
   * Treats pixels in multi-scale feature maps as hypergraph vertices.
-  * Adopts a learnable hyperedge construction module to adaptively exploring higher-order correlations between vertices.
-  * A message passing module with linear complexity is leveraged to effectively aggregate multi-scale features with the guidance of higher-order correlations to achieve effective visual perception of complex scenarios.
+  * Adopts a learnable hyperedge construction module to adaptively exploring high-order correlations between vertices.
+  * A message passing module with linear complexity is leveraged to effectively aggregate multi-scale features with the guidance of high-order correlations to achieve effective visual perception of complex scenarios.
 
 * **FullPAD: Full-Pipeline Aggregation-and-Distribution Paradigm**
 
