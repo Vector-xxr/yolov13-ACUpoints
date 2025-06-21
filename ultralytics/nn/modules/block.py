@@ -1604,7 +1604,6 @@ class HyperACE(nn.Module):
                     
     def forward(self, X):
         x = self.fuse(X)
-        """Forward pass through C2f layer."""
         y = list(self.cv1(x).chunk(3, 1))
         out1 = self.branch1(y[1])
         out2 = self.branch2(y[1])
