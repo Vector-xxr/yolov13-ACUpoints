@@ -54,11 +54,6 @@
   * Replaces large-kernel convolutions with blocks building based on depthwise separable convolutions (DSConv, DS-Bottleneck, DS-C3k, DS-C3k2), preserving receptive field while greatly reducing parameters and computation.
   * Achieves faster inference speed without sacrificing accuracy.
 
-* **State-of-the-Art Performance**
-
-  * Demonstrates significant mAP gains of YOLOv13-S over YOLOv12-S and earlier versions on the MS COCO benchmark.
-  * Maintains a lightweight model size, ideal for mobile and embedded deployment. Specifically, The FLOPs of Nano and Small models are the lowest among the YOLO series.
-
 > YOLOv13 seamlessly combines hypergraph computation with end-to-end information collaboration to deliver a more accurate, robust, and efficient real-time detection solution.
 
 
