@@ -21,7 +21,6 @@
 - [Main Results 🏆](#main-results-)
   - [1. MS COCO Benchmark](#1-ms-coco-benchmark)
   - [2. Visualizations](#2-visualizations)
-  - [4. Computational Efficiency](#4-computational-efficiency)
 - [Quick Start 🚀](#quick-start-)
   - [1. Install Dependencies](#1-install-dependencies)
   - [2. Validation](#2-validation)
@@ -120,8 +119,6 @@
 
 **Visualization examples of YOLOv10-N/S, YOLO11-N/S, YOLOv12-N/S, and YOLOv13-N/S.**
 
-
-### 4. Computational Efficiency
 <div>
     <img src="assets/hyperedge.png" width="60%" height="60%">
 </div>
