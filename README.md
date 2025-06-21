@@ -203,8 +203,8 @@ model.export(format="engine", half=True)  # or format="onnx"
 
 - The code is based on [Ultralytics](https://github.com/ultralytics/ultralytics). Thanks for their excellent work!
 - Other wonderful works about Hypergraph Computation:
-  - "Hypergraph Neural Networks": [[paper](https://arxiv.org/abs/1809.09401)]
-  - "HGNN+: General Hypergraph Nerual Networks": [[paper](https://ieeexplore.ieee.org/abstract/document/9795251)]
+  - "Hypergraph Neural Networks": [[paper](https://arxiv.org/abs/1809.09401)] [[code](https://github.com/iMoonLab/HGNN)]
+  - "HGNN+: General Hypergraph Nerual Networks": [[paper](https://ieeexplore.ieee.org/abstract/document/9795251)] [[code](https://github.com/iMoonLab/DeepHypergraph)]
   - "SoftHGNN: Soft Hypergraph Neural Networks for General Visual Recognition": [[paper](https://arxiv.org/abs/2505.15325)] [[code](https://github.com/Mengqi-Lei/SoftHGNN)]
 
 ## Cite YOLOv13 📝
