@@ -4,8 +4,8 @@
 <h2 align="center">YOLOv13: Real-Time Object Detection with Hypergraph-Enhanced Adaptive Visual Perception</h2>
 
 <p align="center">
-    <a href="https://arxiv.org/abs/---">
-    <img src="https://img.shields.io/badge/arXiv-ComingSoon-b31b1b.svg" alt="arXiv">
+    <a href="https://github.com/iMoonLab/yolov13/blob/main/paper-yolov13.pdf">
+    <img src="https://img.shields.io/badge/Paper-Download-b31b1b.svg" alt="arXiv">
   </a>
   <a href="https://github.com/iMoonLab">
     <img src="https://img.shields.io/badge/iMoonLab-Homepage-blueviolet.svg" alt="iMoonLab">
