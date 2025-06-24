@@ -19,7 +19,7 @@
 
 ## Updates
 
-- 2025/06/24: 🔥 **The paper of YOLOv13 can be directly download**: [🔗 YOLOv13: Real-Time Object Detection with Hypergraph-Enhanced Adaptive Visual Perception](https://github.com/iMoonLab/yolov13/blob/main/paper-yolov13.pdf).
+- 2025/06/24: 🔥 **The paper of YOLOv13 can be directly downloaded**: [🔗 YOLOv13: Real-Time Object Detection with Hypergraph-Enhanced Adaptive Visual Perception](https://github.com/iMoonLab/yolov13/blob/main/paper-yolov13.pdf).
 
 - 2025/06/22: YOLOv13 model weights released.
 
