@@ -63,7 +63,7 @@
   * FullPAD paradigm further leverages three separate tunnels to forward these correlation-enhanced features to the connection between the backbone and neck, the internal layers of the neck, and the connection between the neck and head, respectively. In this way, YOLOv13 achieves fine‑grained information flow and representational synergy across the entire pipeline.
   * FullPAD significantly improves gradient propagation and enhances the detection performance.
 
-* **Lightweight Convolution Replacement**
+* **Model Lightweighting via DS-based Blocks**
 
   * Replaces large-kernel convolutions with blocks building based on depthwise separable convolutions (DSConv, DS-Bottleneck, DS-C3k, DS-C3k2), preserving receptive field while greatly reducing parameters and computation.
   * Achieves faster inference speed without sacrificing accuracy.
