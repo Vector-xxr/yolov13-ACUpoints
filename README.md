@@ -4,8 +4,8 @@
 <h2 align="center">YOLOv13: Real-Time Object Detection with Hypergraph-Enhanced Adaptive Visual Perception</h2>
 
 <p align="center">
-    <a href="https://github.com/iMoonLab/yolov13/blob/main/paper-yolov13.pdf">
-    <img src="https://img.shields.io/badge/Paper-Download-b31b1b.svg" alt="arXiv">
+    <a href="https://arxiv.org/abs/2506.17733">
+    <img src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg" alt="arXiv">
   </a>
   <a href="https://github.com/iMoonLab">
     <img src="https://img.shields.io/badge/iMoonLab-Homepage-blueviolet.svg" alt="iMoonLab">
@@ -19,7 +19,7 @@
 
 ## Updates
 
-- 2025/06/24: 🔥 **The paper of YOLOv13 can be downloaded**: [🔗 YOLOv13: Real-Time Object Detection with Hypergraph-Enhanced Adaptive Visual Perception](https://github.com/iMoonLab/yolov13/blob/main/paper-yolov13.pdf).
+- 2025/06/24: 🔥 **The paper of YOLOv13 can be downloaded**: [🔗 YOLOv13: Real-Time Object Detection with Hypergraph-Enhanced Adaptive Visual Perception](https://arxiv.org/abs/2506.17733).
 
 - 2025/06/24: [Android deployment](https://github.com/mpj1234/ncnn-yolov13-android/tree/main) is supported. Thanks to [mpj1234](https://github.com/mpj1234)!
 
