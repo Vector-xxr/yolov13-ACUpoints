@@ -220,6 +220,11 @@ model.export(format="engine", half=True)  # or format="onnx"
 
 ## Cite YOLOv13 📝
 ```bibtex
-Coming soon...
+@article{yolov13,
+  title={YOLOv13: Real-Time Object Detection with Hypergraph-Enhanced Adaptive Visual Perception},
+  author={Lei, Mengqi and Li, Siqi and Wu, Yihong, et al.},
+  journal={arXiv preprint arXiv:2506.17733},
+  year={2025}
+}
 ```
 
