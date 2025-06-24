@@ -23,6 +23,8 @@
 
 - 2025/06/22: YOLOv13 model weights released.
 
+- 2025/06/21: The code of YOLOv13 has been open-sourced.
+
 
 
 <h2>Table of Contents</h2>
