@@ -19,6 +19,8 @@
 
 ## Updates
 
+- 2025/06/27: [Converting YOLOv13](https://github.com/kaylorchen/ai_framework_demo) to Huawei Ascend (OM), Rockchip (RKNN) formats is supported. Thanks to [kaylorchen](https://github.com/kaylorchen)!
+
 - 2025/06/25: [FastAPI REST API](https://github.com/iMoonLab/yolov13/tree/main/examples/YOLOv13-FastAPI-REST-API) is supported. Thanks to [MohibShaikh](https://github.com/MohibShaikh)!
 
 - 2025/06/24: 🔥 **The paper of YOLOv13 can be downloaded**: [🔗 YOLOv13: Real-Time Object Detection with Hypergraph-Enhanced Adaptive Visual Perception](https://arxiv.org/abs/2506.17733).
