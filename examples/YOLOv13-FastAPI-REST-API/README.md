@@ -10,13 +10,20 @@ A REST API server that detects objects in images using YOLOv13 AI models. Upload
 - Production-ready with error handling
 
 ## Quick Start
+Before starting the server, make sure you have installed this extra requirement: 
+
+```bash
+pip install huggingface-hub
+```
+
+Then, start the server:
 
 ```bash
 # Install dependencies
 pip install -r requirements.txt
 
 # Start the server
-python main.py
+python yolov13_fastapi_api.py
 ```
 
 Server runs at: http://localhost:8000  
