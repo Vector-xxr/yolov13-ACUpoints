@@ -14,7 +14,7 @@
 
   
 <div align="center">
-    <img src="assets/framework.png" width="96%" height="96%">
+    <img src="assets/framework.png">
 </div>
 
 ## Updates
