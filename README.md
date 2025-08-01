@@ -19,6 +19,8 @@
 
 ## Updates
 
+- 2025/07/19: [HuggingFace Spaces Demo](https://huggingface.co/spaces/atalaydenknalbant/Yolov13) is online. Thanks to [Atalay](https://github.com/atalaydenknalbant)!
+
 - 2025/06/27: [Converting YOLOv13](https://github.com/kaylorchen/ai_framework_demo) to Huawei Ascend (OM), Rockchip (RKNN) formats is supported. Thanks to [kaylorchen](https://github.com/kaylorchen)!
 
 - 2025/06/25: [FastAPI REST API](https://github.com/iMoonLab/yolov13/tree/main/examples/YOLOv13-FastAPI-REST-API) is supported. Thanks to [MohibShaikh](https://github.com/MohibShaikh)!
