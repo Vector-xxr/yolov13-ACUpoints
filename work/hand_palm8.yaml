@@ -1,0 +1,33 @@
+# Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
+# 自建手部关键点数据集 (coco_hand)
+# 数据集说明：包含手掌(palm)和手背(back)两类，共8个关键点
+# Example usage: yolo train data=coco_hand.yaml
+# 目录结构：
+# ├── work
+# │   ├── coco_hand.yaml  <-- 本配置文件
+# │   └── datasets
+# │       └── coco_hand  ← 数据集存放路径
+#             ├── images
+#             │   ├── train  # 训练集图片
+#             │   └── val    # 验证集图片
+#             └── labels
+#                 ├── train  # 训练集标注（YOLO格式txt）
+#                 └── val    # 验证集标注（YOLO格式txt）
+
+# 训练/验证/测试集路径（支持：1. 目录路径 2. 文件列表 3. 列表形式）
+path: /home/xiexingrong/ACUpose/yolov13/work/datasets/hand-palm8  # 数据集根目录（绝对路径）
+train: images/train  # 训练集图片路径（相对于path）
+val: images/val       # 验证集图片路径（相对于path）
+test:  # 测试集（可选，留空）
+
+# 关键点配置
+kpt_shape: [8, 3]  # 8个关键点，每个包含(x,y,可见性)3个维度（与dataset_info中的8个关键点对应）
+flip_idx: [0,1,2,3,4,5,6,7]  # 无左右翻转映射关系（按需求设置为空列表）
+
+# 类别配置（与dataset_info中的classes对应）
+names:
+  0: palm   # 手掌类别
+
+# 下载链接（若无需自动下载可注释或删除）
+# download: 你的数据集下载链接（可选）

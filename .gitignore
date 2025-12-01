@@ -1,0 +1,12 @@
+# 1. 数据集
+datasets/
+
+# 2. 训练输出和权重
+runs/
+
+# 3. Python缓存
+__pycache__/
+*.pyc
+
+# 4. 系统文件（避免跨系统问题）
+.DS_Store
