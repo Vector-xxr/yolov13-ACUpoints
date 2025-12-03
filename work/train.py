@@ -42,6 +42,6 @@ def train_yolov13_pose():
     print(f"训练完成 | 最优权重路径: {project}/{name}/best.pt")
 
 if __name__ == "__main__":
-    task = Task.init(project_name="YOLOv13_test", 
+    task = Task.init(project_name="YOLOv13_test2", 
                  task_name="test")
     train_yolov13_pose()
